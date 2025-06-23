@@ -35,9 +35,9 @@ class FlightReservationServiceProvider extends PackageServiceProvider
         return;
     }
 
-    Filament::registerPages([
-        \Hanan\FlightReservation\Filament\Pages\FlightDashboard::class,
-    ]);
+    // Filament::registerPages([
+    //     \Hanan\FlightReservation\Filament\Pages\FlightDashboard::class,
+    // ]);
 }
 
     public function packageRegistered(): void
